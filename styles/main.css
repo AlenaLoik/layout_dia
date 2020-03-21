@@ -439,6 +439,20 @@ a {
           -ms-flex-align: start;
               align-items: flex-start;
       max-width: 1200px; }
+    .main__block__vision {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      background-color: #fff;
+      background-image: url(../images/bg/BG.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
 
 .expertise__articles {
   -webkit-box-sizing: border-box;
@@ -876,6 +890,269 @@ a {
     padding: 30px 0; }
     .testimonials__articles .article {
       margin-bottom: 30px; } }
+
+@media screen and (max-width: 500px) {
+  .testimonials__articles .article {
+    max-width: 280px;
+    padding-right: 10px;
+    padding-left: 10px; } }
+
+.vision {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 200px;
+  margin-bottom: 300px;
+  max-width: 740px;
+  width: 100%; }
+  .vision__article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center; }
+  .vision__button {
+    margin-top: 64px; }
+
+@media screen and (max-width: 700px) {
+  .vision {
+    margin-top: 75px;
+    margin-bottom: 175px; } }
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  right: 0;
+  left: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #2c2c2c;
+  color: #fff;
+  padding: 180px 30px 80px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 30px 30px  0 0;
+  -webkit-transform: translateY(-100px);
+          transform: translateY(-100px); }
+  .footer__nav {
+    margin-top: 120px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    max-width: 1200px; }
+    .footer__nav .nav__list {
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end; }
+  .footer__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
+    max-width: 1200px; }
+  .footer .form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 50%; }
+    .footer .form__title {
+      font-family: "Poppins", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 150%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      color: #fff;
+      margin-bottom: 10px; }
+    .footer .form__send {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      width: 90%; }
+    .footer .form input,
+    .footer .form textarea {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      width: 100%;
+      margin-bottom: 10px;
+      height: 50px;
+      background: #2c2c2c;
+      color: #fff;
+      border: none;
+      padding-top: 45px;
+      resize: none;
+      border-bottom: 2px solid rgba(255, 255, 255, 0.7); }
+      .footer .form input::-webkit-input-placeholder, .footer .form textarea::-webkit-input-placeholder {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        color: #fff;
+        opacity: 0.7; }
+      .footer .form input::-moz-placeholder, .footer .form textarea::-moz-placeholder {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        color: #fff;
+        opacity: 0.7; }
+      .footer .form input:-ms-input-placeholder, .footer .form textarea:-ms-input-placeholder {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        color: #fff;
+        opacity: 0.7; }
+      .footer .form input::-ms-input-placeholder, .footer .form textarea::-ms-input-placeholder {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        color: #fff;
+        opacity: 0.7; }
+      .footer .form input::placeholder,
+      .footer .form textarea::placeholder {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        color: #fff;
+        opacity: 0.7; }
+      .footer .form input:hover,
+      .footer .form textarea:hover {
+        border-bottom: 2px solid #2060f6; }
+      .footer .form input:focus,
+      .footer .form textarea:focus {
+        border-bottom: 2px solid #2060f6; }
+    .footer .form__button {
+      margin-top: 80px; }
+  .footer__contact {
+    width: 50%; }
+  .footer p {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #fff;
+    opacity: 0.5;
+    margin: 48px 0 8px; }
+  .footer .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-left: 5vw; }
+    .footer .contact__title {
+      font-family: "Poppins", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 150%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      color: #fff;
+      width: 100%; }
+    .footer .contact__links > a {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 150%;
+      opacity: 1;
+      margin-top: 0;
+      color: #fff;
+      -webkit-transition: 0.5s;
+      transition: 0.5s; }
+      .footer .contact__links > a:hover {
+        color: rgba(255, 255, 255, 0.7); }
+    .footer .contact__adres > p:last-child {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 150%;
+      opacity: 1;
+      margin-top: 0; }
+    .footer .contact__svg {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      margin-top: 20px; }
+      .footer .contact__svg svg {
+        width: 32px;
+        height: 32px;
+        margin-right: 36px;
+        fill: white;
+        -webkit-transition: 0.5s;
+        transition: 0.5s; }
+        .footer .contact__svg svg:hover {
+          fill: #2060f6;
+          stroke: #2060f6; }
+
+@media screen and (max-width: 1000px) {
+  .footer {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+    .footer__nav {
+      display: none; }
+    .footer__info {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+    .footer .form__button {
+      margin: 40px auto; }
+    .footer .contact {
+      padding-top: 20px;
+      padding-left: 0;
+      margin-bottom: 80px; } }
+
+@media screen and (max-width: 700px) {
+  .footer .form {
+    width: 100%; }
+    .footer .form__send {
+      width: 100%; }
+  .footer__contact {
+    width: 100%; } }
 
 body {
   background: #e5e5e5; }
