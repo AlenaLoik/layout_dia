@@ -770,8 +770,7 @@ a {
   .approach__article .article__text {
     padding-left: 0; }
   .approach__article .article__title {
-    max-width: 300px;
-    background-color: yellowgreen; } }
+    max-width: 300px; } }
 
 .testimonials__header .article {
   display: -webkit-box;
